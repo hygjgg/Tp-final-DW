@@ -17,6 +17,11 @@ header {
   animation: fadeIn 1s ease-in;
 }
 
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
 header h1 {
   margin-bottom: 0.5rem;
 }
@@ -95,3 +100,4 @@ footer {
   padding: 20px;
   margin-top: 40px;
 }
+
